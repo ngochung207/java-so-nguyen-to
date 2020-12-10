@@ -7,7 +7,7 @@ public class kiem_tra_so_nguyen_to {
 //        int x = sc.nextInt();
         int count = 0;
         int x = 0;
-        while (count <= 20) {
+        while (x < 100) {
             boolean check = false;
             if (x < 2) {
                 check = false;
@@ -28,7 +28,7 @@ public class kiem_tra_so_nguyen_to {
 //                System.out.println(x + " khong la so nguyen to");
             if (check) {
                 System.out.println(x);
-                count++;
+//                count++;
             }
             x++;
         }
